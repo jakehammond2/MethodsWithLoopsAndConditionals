@@ -110,5 +110,15 @@ void RangeChecking()
 }
 
 
+void MultiplicationTable(int number)
+{
+    for (int i = 1; i <= 12; i++)
+    {
+        Console.WriteLine($"{i} * {number} = {i * number}");
+    }
+}
+
+MultiplicationTable(8);
+
 
 
